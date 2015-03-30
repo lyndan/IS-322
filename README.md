@@ -3,7 +3,7 @@ class files {
 	
 public $csvFiles;
 public columnHeading;
-//Function
+//CVS Function
          
          public funtion readcsv($csvFiles , $columnHeading){
          ini_set('auto_detect_line_endings, TRUE);
@@ -30,7 +30,7 @@ public columnHeading;
  	                      }
 	
 	}
-//CSV Files Reading
+//Reading the CVS files
     class newClass{
             function csvcallingfile()  {
                  $csvfile= new csvfile();
