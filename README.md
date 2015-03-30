@@ -5,6 +5,7 @@ public $csvFiles;
 public columnHeading;
 
 //CVS Function
+
          
          public funtion readcsv($csvFiles , $columnHeading){
          ini_set('auto_detect_line_endings, TRUE);
@@ -41,7 +42,7 @@ public columnHeading;
                  $newcsv= $csvfile->readcsv ();
                  echo $newcsv;
                  }
-}
+    }
    $newfile=new csvfile();
    $newfile->readcsv("uk-500.csv", TRUE);
    
