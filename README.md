@@ -3,6 +3,7 @@ class files {
 	
 public $csvFiles;
 public columnHeading;
+
 //CVS Function
          
          public funtion readcsv($csvFiles , $columnHeading){
@@ -30,7 +31,10 @@ public columnHeading;
  	                      }
 	
 	}
+	
 //Reading the CVS files
+
+
     class newClass{
             function csvcallingfile()  {
                  $csvfile= new csvfile();
